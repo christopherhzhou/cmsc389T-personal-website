@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Clone
+name: Delete
 
 # Controls when the workflow will run
 on:
@@ -10,7 +10,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   job_one:
-    name: Clone
+    name: Delete
     runs-on: ubuntu-latest
     steps:
       - name: testing
@@ -22,4 +22,5 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             cd /pub/${{ secrets.USERNAME }}
-            git clone https://github.com/christopherhzhou/cmsc389T-personal-website.git
+            unalias rm
+            rm -rf cmsc389T-personal-website
