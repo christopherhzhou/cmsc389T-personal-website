@@ -27,4 +27,5 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
+            cd /pub/${{ secrets.USERNAME }}
             git clone https://github.com/christopherhzhou/cmsc389T-personal-website.git
