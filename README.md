@@ -1,3 +1,7 @@
-# cmsc388T-web-template
+# Christopher Zhou's personal website
 
-Website Template for Project 3
+Created for CMSC389T
+
+Link to website: 
+
+Website custom change: added extra social media link to Facebook
