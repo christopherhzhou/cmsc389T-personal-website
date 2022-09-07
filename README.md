@@ -1,6 +1,6 @@
 # Christopher Zhou's personal website
 
-Created for CMSC389T
+This website was created for CMSC389T: Introduction to Git, Github and Project Management, a student-taught course at UMD.
 
 Link to website on Terpconnect: https://terpconnect.umd.edu/~czhou6/cmsc389T-personal-website/
 
